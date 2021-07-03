@@ -2,7 +2,7 @@
 //For e.g. deepClone({ name: "Hitachi MGRM NET", address: { city: "Gurgaon", country: "India" } }) -> { name: "Hitachi MGRM NET", address: { city: "Gurgaon", country: "India" } }
 
 function deepClone(obj) {
-  return JSON.parse(JSON.stringify(obj)))
+  return JSON.parse(JSON.stringify(obj))
 }
 
 const obj = { name: "Hitachi MGRM NET", address: { city: "Gurgaon", country: "India" } }
