@@ -2,7 +2,7 @@
 //For e.g. deepClone({ name: "Hitachi MGRM NET", address: { city: "Gurgaon", country: "India" } }) -> { name: "Hitachi MGRM NET", address: { city: "Gurgaon", country: "India" } }
 
 function deepClone(obj) {
-	console.log(JSON.parse(JSON.stringify(obj)))
+  return JSON.parse(JSON.stringify(obj)))
 }
 
 const obj = { name: "Hitachi MGRM NET", address: { city: "Gurgaon", country: "India" } }
@@ -16,9 +16,9 @@ function areAnagrams(str1, str2) {
   let newStr1 = str1.split("").sort().join("");
   let newStr2 = str2.split("").sort().join("");
   if (newStr1 === newStr2) {
-  	console.log("true")
+    return true
   } else {
-  	console.log("false")
+    return false
   }
 }
 
